@@ -1,0 +1,64 @@
+/* corpo da pagina*/
+body{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #bbb;
+}
+/*header principal e footer*/
+#cab,footer{
+    background-color: #508050;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    color:#FFF;
+}
+/* section */
+#parques{
+    background-color: #505080;
+    padding:0px 10px 10px 10px;
+    border-radius: 20px;
+    }
+
+#footer{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+/*imagens da section*/
+#parques img{
+    float: left;
+    margin: 0px 10px 0px 0px;
+    width: 150px;
+}
+/*função para limpar a ação do float*/
+.vazio{
+    clear:both;
+}
+
+/* bordas  do article na section */
+#parques article{
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    border-left: 1px dashed black;
+    border-right: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+/* cor de h1 e h2 na section*/
+#parques h1,#parques h2{
+    color: rgb(2, 29, 2)
+}
+
+/*alinhando e cor dos P na section*/
+#parques p{
+    text-align: justify;
+    color:#ffffff;
+}
+
+/* formatação de h1 e h2 */
+
+h1{
+    
+    padding-top: 20px;
+}
+h2{
+    font-size: 15px;  
+}
